@@ -10,7 +10,7 @@ With htlp of [node-forge](https://github.com/digitalbazaar/forge) generqte dummy
 # Install
 
 ```
-npm i mh-cbon/make-that-ssl-cert
+npm i mh-cbon/make-that-ssl-cert -g
 ```
 
 # Usage
