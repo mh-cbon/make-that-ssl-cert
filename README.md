@@ -3,7 +3,7 @@ node binary to generate an SSL certificate.
 
 Tired of openssl ? Found it awfully boring to generate a stupid self signed certificate ?
 
-You are at the tight place !
+You are at the right place !
 
 With help of [node-forge](https://github.com/digitalbazaar/forge) generate dummy ssl keys to feed in your projects.
 
