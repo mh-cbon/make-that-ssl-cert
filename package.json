@@ -1,0 +1,26 @@
+{
+  "name": "make-that-ssl-cert",
+  "version": "1.0.0",
+  "description": "node binary to generate an SSL certificate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mh-cbon/make-that-ssl-cert.git"
+  },
+  "keywords": [],
+  "author": "mh-cbon <mh-cbon@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mh-cbon/make-that-ssl-cert/issues"
+  },
+  "homepage": "https://github.com/mh-cbon/make-that-ssl-cert#readme",
+  "dependencies": {
+    "@maboiteaspam/set-verbosity": "^2.0.3",
+    "@maboiteaspam/show-help": "^3.0.0",
+    "minimist": "^1.2.0",
+    "node-forge": "^0.6.39"
+  }
+}
