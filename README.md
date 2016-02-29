@@ -7,6 +7,12 @@ You are at the tight place !
 
 With htlp of [node-forge](https://github.com/digitalbazaar/forge) generqte dummy ssl keys to feed in your projects.
 
+# Install
+
+```
+npm i mh-cbon/make-that-ssl-cert
+```
+
 # Usage
 
 ```
