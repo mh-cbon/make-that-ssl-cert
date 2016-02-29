@@ -5,7 +5,7 @@ Tired of openssl ? Found it awfully boring to generate a stupid self signed cert
 
 You are at the tight place !
 
-With htlp of [node-forge](https://github.com/digitalbazaar/forge) generqte dummy ssl keys to feed in your projects.
+With help of [node-forge](https://github.com/digitalbazaar/forge) generate dummy ssl keys to feed in your projects.
 
 # Install
 
