@@ -1,6 +1,6 @@
 {
   "name": "@mh-cbon/make-that-ssl-cert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node binary to generate an SSL certificate",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,8 @@
     "url": "git+https://github.com/mh-cbon/make-that-ssl-cert.git"
   },
   "keywords": [
-    "ssl", "certificate"
+    "ssl",
+    "certificate"
   ],
   "author": "mh-cbon <mh-cbon@users.noreply.github.com>",
   "license": "MIT",
