@@ -1,10 +1,17 @@
 {
-  "name": "make-that-ssl-cert",
+  "name": "@mh-cbon/make-that-ssl-cert",
   "version": "1.0.0",
   "description": "node binary to generate an SSL certificate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "npm version patch -m \"patch %s\"",
+    "minor": "npm version minor -m \"minor %s\"",
+    "major": "npm version major -m \"major %s\"",
+    "preversion": "echo \"npm test: not defined\"",
+    "version": "echo \"npm run build: not defined\"",
+    "postversion": "git push && git push --tags && npm run public",
+    "public": "npm publish --access=public"
   },
   "bin": {
     "make-that-ssl-cert": "./bin.js"
@@ -13,7 +20,9 @@
     "type": "git",
     "url": "git+https://github.com/mh-cbon/make-that-ssl-cert.git"
   },
-  "keywords": [],
+  "keywords": [
+    "ssl", "certificate"
+  ],
   "author": "mh-cbon <mh-cbon@users.noreply.github.com>",
   "license": "MIT",
   "bugs": {
