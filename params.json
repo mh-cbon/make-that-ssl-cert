@@ -1,0 +1,6 @@
+{
+  "name": "Make-that-ssl-cert",
+  "tagline": "node binary to generate an SSL certificate w/o openssl",
+  "body": "# make-that-ssl-cert\r\nnode binary to generate an SSL certificate.\r\n\r\nTired of openssl ? Found it awfully boring to generate a stupid self signed certificate ?\r\n\r\nYou are at the right place !\r\n\r\nWith help of [node-forge](https://github.com/digitalbazaar/forge) generate dummy ssl keys to feed in your projects.\r\n\r\n# Install\r\n\r\n```\r\nnpm i mh-cbon/make-that-ssl-cert -g\r\n```\r\n\r\n# Usage\r\n\r\n```\r\nmake-that-ssl-cert 1.0.0\r\n  node binary to generate an SSL certificate\r\n\r\nUsage\r\n  make-that-ssl-cert\r\n\r\nOptions\r\n  --verbose | -v   Enable verbosity pass in the module list to debug.\r\n\r\n```\r\n\r\n# Todos\r\n\r\n- add -y option\r\n- add inquirer support to generate less dumbass cert\r\n\r\n# Read more\r\n\r\n- https://github.com/digitalbazaar/forge\r\n- https://github.com/digitalbazaar/forge/blob/master/tests/nodejs-create-cert.js\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
